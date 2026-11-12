@@ -1,0 +1,1261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Sam Ethnan Air Force Base Community Guide — find schools, healthcare, worship, financial services, recreation and other facilities within the community."
+    />
+
+    <title>Sam Ethnan Air Force Base Community Guide</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- ==================================================
+         HEADER
+    =================================================== -->
+
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="#" class="logo" aria-label="Sam Ethnan Community Guide home">
+          <span class="logo-mark"><img src="./images/naf-logo-removebg-preview.png" alt="naf-logo" /></span>
+
+          <span class="logo-text">
+            Sam Ethnan Airforce Base
+            <small>Community Guide</small>
+          </span>
+        </a>
+
+        <button
+          id="menuBtn"
+          class="menu-btn"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="navLinks"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav id="navLinks" class="nav-links" aria-label="Main navigation">
+          <a href="#home">Home</a>
+
+          <a href="#quick-access"> Quick Access </a>
+
+          <a href="#places"> Places </a>
+
+          <a href="#new-here"> New Here? </a>
+           <a href="#about">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- ==================================================
+             HERO
+        =================================================== -->
+
+      <!-- <section
+            id="home"
+            class="hero"
+        >
+
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                   
+                    <h1>Welcome to  
+                        <span>Sam Ethnan</span>
+                        Airforce Base
+                    </h1>
+
+                    <p>
+                       A community guide for new residents and visitors
+                       to discover schools, healthcare facilities, 
+                       worship centres, financial services, recreation and other 
+                       community facilities around Sam Ethnan Air Force Base.
+
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <a
+                            href="#places"
+                            class="btn btn-primary"
+                        >
+                            Explore Places
+                        </a>
+
+                        <a
+                            href="#new-here"
+                            class="btn btn-secondary"
+                        >
+                            New Here?
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+   
+            </div>
+
+        </section> -->
+
+      <section id="home" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <h1>
+              Welcome to<span>Sam Ethnan</span>Airforce Base
+            </h1>
+
+            <p>
+              A community guide for new residents and visitors to discover
+              schools, healthcare facilities, worship centres, financial
+              services, recreation and other community facilities around Sam
+              Ethnan Air Force Base.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#places" class="btn btn-primary"> Explore Places </a>
+
+              <a href="#new-here" class="btn btn-secondary"> New Here? </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================================================
+             QUICK ACCESS
+        =================================================== -->
+
+      <section id="quick-access" class="section quick-access">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow"> QUICK ACCESS </span>
+
+            <h2>Find what you need quickly</h2>
+
+            <p>Jump directly to a category within the community directory.</p>
+          </div>
+
+          <div class="quick-grid">
+            <!-- Schools -->
+
+            <a href="#places" class="quick-card" data-filter-link="schools">
+              <div class="quick-icon">🎓</div>
+
+              <div>
+                <h3>Schools</h3>
+
+                <p>Primary, secondary and vocational education.</p>
+              </div>
+
+              <span class="card-arrow"> → </span>
+            </a>
+
+            <!-- Financial -->
+
+            <a href="#places" class="quick-card" data-filter-link="financial">
+              <div class="quick-icon">💳</div>
+
+              <div>
+                <h3>Financial</h3>
+
+                <p>Banks and financial services within the community.</p>
+              </div>
+
+              <span class="card-arrow"> → </span>
+            </a>
+
+            <!-- Health -->
+
+            <a href="#places" class="quick-card" data-filter-link="health">
+              <div class="quick-icon">🏥</div>
+
+              <div>
+                <h3>Health</h3>
+
+                <p>Healthcare and medical facilities.</p>
+              </div>
+
+              <span class="card-arrow"> → </span>
+            </a>
+
+            <!-- Recreation -->
+
+            <a href="#places" class="quick-card" data-filter-link="recreation">
+              <div class="quick-icon">⚽</div>
+
+              <div>
+                <h3>Recreation</h3>
+
+                <p>Sports, outdoor spaces and recreation.</p>
+              </div>
+
+              <span class="card-arrow"> → </span>
+            </a>
+
+            <!-- Worship -->
+
+            <a href="#places" class="quick-card" data-filter-link="worship">
+              <div class="quick-icon">⛪</div>
+
+              <div>
+                <h3>Worship</h3>
+
+                <p>Places of worship within the community.</p>
+              </div>
+
+              <span class="card-arrow"> → </span>
+            </a>
+
+            <!-- Community -->
+
+            <a href="#places" class="quick-card" data-filter-link="community">
+              <div class="quick-icon">🏘️</div>
+
+              <div>
+                <h3>Community</h3>
+
+                <p>Community services and useful facilities.</p>
+              </div>
+
+              <span class="card-arrow"> → </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================================================
+             NEW HERE
+        =================================================== -->
+
+      <section id="new-here" class="section new-here">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow"> NEW HERE? </span>
+
+            <h2>Start with the essentials</h2>
+
+            <p>
+              If you are new to Sam Ethnan, these are some useful places to know
+              about first.
+            </p>
+          </div>
+
+          <div class="guide-grid">
+            <article class="guide-card">
+              <span class="guide-number"> 01 </span>
+
+              <h3>Find a School</h3>
+
+              <p>
+                Explore schools and educational facilities available within the
+                community.
+              </p>
+
+              <a href="#places" class="text-link" data-filter-link="schools">
+                View schools →
+              </a>
+            </article>
+
+            <article class="guide-card">
+              <span class="guide-number"> 02 </span>
+
+              <h3>Locate Financial Services</h3>
+
+              <p>
+                Find banking and financial services available within the base.
+              </p>
+
+              <a href="#places" class="text-link" data-filter-link="financial">
+                View financial services →
+              </a>
+            </article>
+
+            <article class="guide-card">
+              <span class="guide-number"> 03 </span>
+
+              <h3>Know Your Healthcare Options</h3>
+
+              <p>
+                Locate healthcare and medical facilities around the community.
+              </p>
+
+              <a href="#places" class="text-link" data-filter-link="health">
+                View health facilities →
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================================================
+             PLACES DIRECTORY
+        =================================================== -->
+
+      <section id="places" class="section directory">
+        <div class="container">
+          <div class="directory-head">
+            <div class="section-heading">
+              <span class="eyebrow"> DIRECTORY </span>
+
+              <h2>Places & Facilities</h2>
+
+              <p>Search or filter places within Sam Ethnan Air Force Base.</p>
+            </div>
+
+            <!-- Search -->
+
+            <div class="search">
+              <label for="search"> Search places </label>
+
+              <div class="search-controls">
+                <input
+                  id="search"
+                  type="search"
+                  placeholder="Try “school”, “bank”, or “sports”"
+                  autocomplete="off"
+                  aria-label="Search places"
+                />
+
+                <button id="clear" type="button">Clear</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Filters -->
+
+          <div class="filters" aria-label="Place categories">
+            <button class="filter active" type="button" data-filter="all">
+              All
+            </button>
+
+            <button class="filter" type="button" data-filter="schools">
+              Schools
+            </button>
+
+            <button class="filter" type="button" data-filter="financial">
+              Financial
+            </button>
+
+            <button class="filter" type="button" data-filter="health">
+              Health
+            </button>
+
+            <button class="filter" type="button" data-filter="recreation">
+              Recreation
+            </button>
+
+            <button class="filter" type="button" data-filter="worship">
+              Worship
+            </button>
+
+            <button class="filter" type="button" data-filter="community">
+              Community
+            </button>
+          </div>
+
+          <!-- Result counter -->
+
+          <div class="directory-meta">
+            <span id="resultCount"> 0 places found </span>
+          </div>
+
+          <!-- Cards -->
+
+          <div id="cards" class="cards">
+            <!-- ==========================
+                         SCHOOLS
+                    =========================== -->
+
+            <article
+              class="card"
+              data-category="schools"
+              data-search="air force primary school 1 ikeja education school primary"
+            >
+              <div class="photo">
+                <img
+                  src="./images/sch-1.jpeg"
+                  alt="Air Force Primary School 1"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Schools </span>
+
+                <h3>Air Force Primary School I</h3>
+
+                <p>Primary education facility within the community.</p>
+
+                <a
+                  class="map-link"
+                  target="_blank"
+                  rel="noopener"
+                  href="https://www.google.com/maps/search/?api=1&query=Air+Force+Primary+School+1+NAF+Base+Ikeja+Lagos"
+                >
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+
+            <article
+              class="card"
+              data-category="schools"
+              data-search="air force primary school 2 ikeja education school primary"
+            >
+              <div class="photo">
+                <img
+                  src="./images/sch-2.jpeg"
+                  alt="Air Force Primary School 2"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Schools </span>
+
+                <h3>Air Force Primary School II</h3>
+
+                <p>Primary education facility within the community.</p>
+                <a
+                  class="map-link"
+                  target="_blank"
+                  rel="noopener"
+                  href="https://www.google.com/maps/search/?api=1&query=Air+Force+Primary+School+2+NAF+Base+Ikeja+Lagos"
+                >
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+
+            <article
+              class="card"
+              data-category="schools"
+              data-search="air force primary school 3 ikeja education school primary"
+            >
+              <div class="photo">
+                <img
+                  src="./images/airforce-pry-sch.jpg"
+                  alt="Air Force Primary School 3"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Schools </span>
+
+                <h3>Air Force Primary School III</h3>
+
+                <p>Primary education facility within the community.</p>
+
+                <a
+                  class="map-link"
+                  target="_blank"
+                  rel="noopener"
+                  href="https://www.google.com/maps/search/?api=1&query=Air+Force+Primary+School+3+NAF+Base+Ikeja+Lagos"
+                >
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+
+            <article
+              class="card"
+              data-category="schools"
+              data-search="air force secondary school ikeja education school secondary"
+            >
+              <div class="photo">
+                <img
+                  src="./images/afss.jpg"
+                  alt="Air Force Secondary School"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Schools </span>
+
+                <h3>Air Force Secondary School</h3>
+
+                <p>Secondary education facility within the community.</p>
+
+                <a
+                  class="map-link"
+                  target="_blank"
+                  rel="noopener"
+                  href="https://www.google.com/maps/search/?api=1&query=Air+Force+Comprehensive+Secondary+School+NAF+Base+Ikeja+Lagos"
+                >
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+
+            <article
+              class="card"
+              data-category="schools"
+              data-search="nafowa little angels school ikeja education primary"
+            >
+              <div class="photo">
+                <img
+                  src="./images/nafowa-liitleangel-entrance.jpg"
+                  alt="NAFOWA Little Angels School"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Schools </span>
+
+                <h3>NAFOWA Little Angels School</h3>
+
+                <p>Educational facility serving younger learners.</p>
+
+                <a
+                  class="map-link"
+                  target="_blank"
+                  rel="noopener"
+                  href="https://maps.app.goo.gl/NeHWAxkFdSNRAZ2Y9"
+                >
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+
+            <!-- <article
+                        class="card"
+                        data-category="schools"
+                        data-search="nafowa secondary school ikeja education secondary"
+                    >
+
+                        <div class="photo">
+
+                            <img
+                                src="./images/nafowa-secondary.jpg"
+                                alt="NAFOWA Secondary School"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="card-body">
+
+                            <span class="card-category">
+                                Schools
+                            </span>
+
+                            <h3>
+                                NAFOWA Secondary School
+                            </h3>
+
+                            <p>
+                                Secondary education facility
+                                within the community.
+                            </p>
+
+                        </div>
+
+                    </article> -->
+
+            <article
+              class="card"
+              data-category="schools"
+              data-search="nafowa vocational center ikeja education training vocational"
+            >
+              <div class="photo">
+                <img
+                  src="./images/nafowa-ICT.jpg"
+                  alt="NAFOWA Vocational Center"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Schools </span>
+
+                <h3>NAFOWA Vocational Center</h3>
+
+                <p>Vocational and practical skills training facility.</p>
+
+                <a
+                  class="map-link"
+                  target="_blank"
+                  rel="noopener"
+                  href="https://maps.app.goo.gl/pLnTMnDE24N4vVb79"
+                >
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+
+            <!-- ==========================
+                         FINANCIAL
+                    =========================== -->
+
+            <article
+              class="card"
+              data-category="financial"
+              data-search="uba bank financial banking ikeja"
+            >
+              <div class="photo">
+                <img src="./images/uba-image.webp" alt="UBA bank" loading="lazy" />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Financial </span>
+
+                <h3>UBA</h3>
+
+                <p>Banking and financial services within the community.</p>
+
+                <a
+                  class="map-link"
+                  target="_blank"
+                  rel="noopener"
+                  href="https://maps.app.goo.gl/JPvQ5WJHbTRx5gQn8"
+                >
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+
+            <!-- ==========================
+                         RECREATION
+                    =========================== -->
+
+            <article
+              class="card"
+              data-category="recreation"
+              data-search="ato field sports recreation football outdoor ikeja"
+            >
+              <div class="photo">
+                <img src="./images/naf-field.jpg" alt="ATO Field" loading="lazy" />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Recreation </span>
+
+                <h3>ATO Field</h3>
+
+                <p>Outdoor recreational and sporting space.</p>
+
+                <a
+                  class="map-link"
+                  target="_blank"
+                  rel="noopener"
+                  href="https://www.google.com/maps/search/?api=1&query=ATO+Field+NAF+Base+Ikeja+Lagos"
+                >
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+
+            <article
+              class="card"
+              data-category="recreation"
+              data-search=" Amao Basketball Court recreation basket ball outdoor activities ikeja"
+            >
+              <div class="photo">
+                <img
+                  src="./images/basket-ball-court.jpeg"
+                  alt=" Basketball Court"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Recreation </span>
+
+                <h3>Amao Basketball Court</h3>
+
+                <p>Outdoor recreational and sporting space.</p>
+
+                <a
+                  class="map-link"
+                  target="_blank"
+                  rel="noopener"
+                  href="https://maps.app.goo.gl/BrH2cBcBiMJxz3mFA"
+                >
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+
+            <article
+              class="card"
+              data-category="recreation"
+              data-search="gym recreation center for outdoor activities "
+            >
+              <div class="photo">
+                <img src="./images/naf-gym.jpg" alt="NAF GYM" loading="lazy" />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Recreation </span>
+
+                <h3>
+                  ⁠Nigerian Air Force Officers Mess Gym 
+                </h3>
+
+                <p>Outdoor recreational and sporting space.</p>
+
+                <a
+                  class="map-link"
+                  target="_blank"
+                  rel="noopener"
+                  href="https://maps.app.goo.gl/5g7pfumhT6GpsnDG7"
+                >
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+
+ <article
+              class="card"
+              data-category="recreation"
+              data-search=" officers mess swimming pool "
+            >
+              <div class="photo">
+                <img src="./images/swimming-pool.jpg" alt="Swimming Pool" loading="lazy" />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Recreation </span>
+
+                <h3>  Swimming Pool</h3>
+
+                <p>Facilities around the base.</p>
+
+                <a
+                  class="map-link"
+                  target="_blank"
+                  rel="noopener"
+                  href="https://maps.app.goo.gl/5g7pfumhT6GpsnDG7"
+                >
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+
+          
+            <!-- ==========================
+                         WORSHIP
+                    =========================== -->
+
+            <article
+              class="card"
+              data-category="worship"
+              data-search="sam ethnan air force base mosque mosque worship islam muslim ikeja"
+            >
+              <div class="photo">
+                <img
+                  src="./images/mosque.jpg"
+                  alt="Sam Ethnan Air Force Base Mosque"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Worship </span>
+
+                <h3>Sam Ethnan Air Force Base Mosque</h3>
+
+                <p>A muslim place of worship</p>
+
+                <a
+                  class="map-link"
+                  target="_blank"
+                  rel="noopener"
+                  href="https://www.google.com/maps/search/?api=1&query=Sam+Ethnan+Air+Force+Base+Mosque+Lagos"
+                >
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+
+            <article
+              class="card"
+              data-category="worship"
+              data-search="naf protestant church worship christian church ikeja"
+            >
+              <div class="photo">
+                <img
+                  src="./images/protestant-church.jpg"
+                  alt="NAF Protestant Church"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Worship </span>
+
+                <h3>
+                  Nigerian Air Force Protestant Church
+ 
+                </h3>
+
+                <p>Christian worship centre within the community.</p>
+
+                <a
+                  class="map-link"
+                  target="_blank"
+                  rel="noopener"
+                  href="https://www.google.com/maps/search/?api=1&query=NAF+Protestant+Church+Sam+Ethnan+Air+Force+Base+Ikeja+Lagos"
+                >
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+
+            <article
+              class="card"
+              data-category="worship"
+              data-search="st augustine catholic church worship catholic christian ikeja"
+            >
+              <div class="photo">
+                <img
+                  src="./images/catholic-church.jpg"
+                  alt="St. Augustine Catholic Church"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Worship </span>
+
+                <h3>
+                  St Augustine Catholic Chaplaincy
+                </h3>
+
+                <p>Catholic worship centre serving the community.</p>
+
+                <a
+                  class="map-link"
+                  target="_blank"
+                  rel="noopener"
+                  href="https://www.google.com/maps/search/?api=1&query=St+Augustine+Catholic+Church+Sam+Ethnan+Air+Force+Base+Ikeja+Lagos"
+                >
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+
+            <!-- ==========================
+                         HEALTH
+                    =========================== -->
+
+            <article
+              class="card"
+              data-category="health"
+              data-search="health medical facilities hospital clinic healthcare medical ikeja"
+            >
+              <div class="photo">
+                <img
+                  src="./images/hospital.jpg"
+                  alt="Health and medical facility"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Health </span>
+
+                <h3>
+                  661 Nigerian Air Force Hospital
+                </h3>
+
+                <p>
+                  Healthcare and medical services available within the
+                  community.
+                </p>
+
+                <a
+                  class="map-link"
+                  target="_blank"
+                  rel="noopener"
+                  href="https://maps.app.goo.gl/PSmjqpAC9Ht4atFL9"
+                >
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+
+            <!-- ==========================
+                         COMMUNITY
+                    =========================== -->
+
+            <article
+              class="card"
+              data-category="community"
+              data-search="wos and sgt mess"
+            >
+              <div class="photo">
+                <img
+                  src="."
+                  alt="WOs and Sgt Mess"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Community </span>
+
+                <h3>
+                  WOs and Sgt Mess
+                </h3>
+
+                <p>Community services and facilities around the base.</p>
+
+                <a class="map-link" target="_blank" rel="noopener" href="">
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+
+             <article
+              class="card"
+              data-category="community"
+              data-search="⁠Nigerian Air Force Airmen Club"
+            >
+              <div class="photo">
+                <img src="" alt="⁠Nigerian Air Force Airmen Club" loading="lazy" />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Community </span>
+
+                <h3>⁠Nigerian Air Force Airmen Club.</h3>
+
+                <p>Facilities around the base.</p>
+
+                <a
+                  class="map-link"
+                  target="_blank"
+                  rel="noopener"
+                  href="https://maps.app.goo.gl/5g7pfumhT6GpsnDG7"
+                >
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+
+              <article
+              class="card"
+              data-category="community"
+              data-search="⁠Nigerian Air Force Airmen Club"
+            >
+              <div class="photo">
+                <img src="" alt="Officers Mess" loading="lazy" />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Community </span>
+
+                <h3>⁠Nigerian Air Force Airmen Club</h3>
+
+                <p>Facilities around the base.</p>
+
+                <a
+                  class="map-link"
+                  target="_blank"
+                  rel="noopener"
+                  href=""
+                >
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+           
+
+            <article
+              class="card"
+              data-category="community"
+              data-search="nafowa multipurpose hall services facilities sam ethnan ikeja community"
+            >
+              <div class="photo">
+                <img
+                  src="./images/community.jpg"
+                  alt="NAFOWA Multipurpose Hall & Shopping Complex"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Community </span>
+
+                <h3>NAFOWA Multipurpose Hall & Shopping Complex</h3>
+
+                <p>Community services and facilities around the base.</p>
+
+                <a
+                  class="map-link"
+                  target="_blank"
+                  rel="noopener"
+                  href="https://maps.app.goo.gl/9gN9MjdA5U1C4KqR9"
+                >
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+
+           
+
+            <article
+              class="card"
+              data-category="community"
+              data-search="officers mess for community and socials "
+            >
+              <div class="photo">
+                <img src="" alt="Yummy Shopping Complex" loading="lazy" />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Community </span>
+
+                <h3>Yummy Yummy Shopping Complex</h3>
+
+                <p>Facilities around the base.</p>
+
+                <a
+                  class="map-link"
+                  target="_blank"
+                  rel="noopener"
+                  href=""
+                >
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+
+            <article
+              class="card"
+              data-category="community"
+              data-search="naf shopping complex for community and socials sam ethnan ikeja"
+            >
+              <div class="photo">
+                <img
+                  src="./images/naf-complex.png"
+                  alt="naf shopping complex"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Community </span>
+
+                <h3>
+                 NAF Shopping Complex
+                </h3>
+
+                <p>Community services and facilities around the base.</p>
+
+                <a class="map-link" target="_blank" rel="noopener" href="https://maps.app.goo.gl/PnAYXz8mt7yG2iRQ8">
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+
+             <article
+              class="card"
+              data-category="community"
+              data-search="naf library"
+            >
+              <div class="photo">
+                <img
+                  src="./images/Library.jpg"
+                  alt="naf library"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-body">
+                <span class="card-category"> Community </span>
+
+                <h3>
+                 NAF Library
+                </h3>
+
+                <p>Community services and facilities around the base.</p>
+
+                <a class="map-link" target="_blank" rel="noopener" href="">
+                  Open in Google Maps ↗
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- No results -->
+
+          <div id="none" class="no-results" hidden>
+            <div class="no-results-icon">🔎</div>
+
+            <h3>No places found</h3>
+
+            <p>Try another search term or choose a different category.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================================================
+             CHECKLIST
+        =================================================== -->
+
+      <section class="section checklist-section">
+        <div class="container">
+          <div class="checklist-wrapper">
+            <div class="section-heading">
+              <span class="eyebrow"> GETTING STARTED </span>
+
+              <h2>Your Community Checklist</h2>
+
+              <p>Keep track of the useful places you have discovered.</p>
+            </div>
+
+            <div class="checklist">
+              <label class="check-item">
+                <input type="checkbox" />
+
+                <span> Find my school </span>
+              </label>
+
+              <label class="check-item">
+                <input type="checkbox" />
+
+                <span> Locate a healthcare facility </span>
+              </label>
+
+              <label class="check-item">
+                <input type="checkbox" />
+
+                <span> Find a bank </span>
+              </label>
+
+              <label class="check-item">
+                <input type="checkbox" />
+
+                <span> Find a place of worship </span>
+              </label>
+
+              <label class="check-item">
+                <input type="checkbox" />
+
+                <span> Explore a recreation facility </span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section id="about">
+  <h2>About This Community Guide</h2>
+
+  <p>
+    The first version of this guide was developed collaboratively by 
+    our student developers in <a href="https://www.bing.com/ck/a?!&&p=1c4b5a7614543053d9005c089552bde1b63d09e06549b98c008f89c0e24ebc81JmltdHM9MTc5MDgxMjgwMA&ptn=3&ver=2&hsh=4&fclid=2da224a3-9f3b-69d7-1a87-321c9e2468d5&psq=faitech+and+tribes&u=a1aHR0cHM6Ly9mYWl0ZWNoLmNvbS5uZy8" target="_blank" rel="noopener noreferrer" style="background-color: blue; color: white; padding: 2px 4px; border-radius: 4px;">Faitech and Tribes computers</a> as a practical web-development project.
+     Working together, they researched, designed and built the foundation
+     of the community guide.
+
+Building on their work, V2 introduces a more refined and professional experience, 
+with improved organization, navigation, responsiveness and presentation of community 
+resources.
+  </p>
+
+<div class="student-team">
+  <!-- <h3>Version 1 — Student Team Project</h3> -->
+
+  <div class="team-grid">
+    <div class="team-member">
+      <img src="images/student-1.jpg" alt="Isaac">
+      <h4> Isaac </h4>
+    </div>
+
+    <div class="team-member">
+      <img src="images/student-2.jpg" alt="jamaaldeen">
+      <h4>Jamaaldeen</h4>
+    </div>
+
+    <div class="team-member">
+      <img src="images/student-3.jpg" alt="matilda">
+      <h4>Matilda</h4>
+    </div>
+
+    <div class="team-member">
+      <img src="images/student-4.jpg" alt="winner">
+      <h4>Winner</h4>
+    </div>
+
+    <div class="team-member">
+      <img src="images/student-5.jpg" alt="Divine">
+      <h4>Divine</h4>
+    </div>
+  </div>
+
+ 
+  <a
+    href="https://base-navigation-guide.netlify.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="project-link"
+  >
+    View Version 1 Project →
+  </a>
+</div>
+
+</section>
+    <!-- ==================================================
+         FOOTER
+    =================================================== -->
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <div>
+          <h2>Sam Ethnan Community Guide</h2>
+
+          <p>
+            This guide is designed to help residents and visitors discover
+            everyday amenities and services in and around the community.
+            Information is provided for general informational and navigation
+            purposes and should not be considered official military, security,
+            or operational information.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#home"> Home </a>
+
+          <a href="#places"> Places </a>
+
+          <a href="#new-here"> New Here? </a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>
+          &copy;
+          <span id="year"></span>
+          Sam Ethnan Community Guide. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Back to top -->
+
+    <button id="top" class="top-button" type="button" aria-label="Back to top">
+      ↑
+    </button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
